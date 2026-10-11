@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@import "tailwindcss";
+@theme { --font-serif: "Playfair Display", Georgia, serif; --font-sans: "DM Sans", Arial, sans-serif; }
+* { box-sizing: border-box; } html { scroll-behavior: smooth; } body { margin: 0; font-family: "DM Sans", Arial, sans-serif; background: #f8f5ef; } button { cursor: pointer; } .font-serif { font-family: "Playfair Display", Georgia, serif; } .display { font-family: "Playfair Display", Georgia, serif; font-size: clamp(3rem, 5vw, 5.5rem); line-height: .9; letter-spacing: -.065em; color: #37463a; } .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; color: #a17d47; } ::selection { background: #ddc38d; color: #304131; }
